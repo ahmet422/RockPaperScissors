@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="Rock-Paper-Scissors" content="Game">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Ahmet Tachmuradov">
+   <meta name="images" content="free for use and for share">
+   <meta Plans for Future:
+   1 show selection of robot on the screen
+   2 Add backround music
+   3 add sound effects>
+</head>
+<iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=I0-Xp_Wz4NI#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
+
+<body id="body">
+
+
+  <div class="elements upperElements row">
+
+    <div id="rock" class="column elements">
+      <img id="rockImg" src="images/rock.png" alt="rock picture">
+    </div>
+
+    <div id="paper" class="column elements">
+        <img id="paperImg" src="images/paper.png" alt="paper picture">
+    </div>
+
+    <div id="scissors" class="column elements">
+          <img id="scissorsImg" src="images/scissors.png" alt="scissors picture"> 
+    </div>
+
+  </div>
+
+  <div id="buttons" class="elements 3buttons">
+    <button class="btn" id="rockBtn" onclick="onSelect('rock')">Rock</button>
+    <button class="btn" id="paperBtn" onclick="onSelect('paper')">Paper</button>
+    <button class="btn" id="scissorsBtn" onclick="onSelect('scissors')">Scissors</button>
+  </div>
+
+  <div class = 'main mainElements'>
+      <h1 id='humanScore' class='elements'>0</h1>
+      <div id = 'wrapper'>
+         
+         <h1 id = 'text' class = 'gameName'>
+         Rock Paper Scissors
+        </h1>
+          <button id='btn'><span id='btnText'>Click to start Game</span></button>
+        
+      </div>
+      <h1 id='computerScore' class='elements'>0</h1>
+  </div>
+    
+    
+    <div id="containerDown" class="elements bottomElements">
+      
+      <img id = 'humanBody' src="images/user.png" alt="human body outline">
+      
+      <img id = 'computer' src="images/robot image .png" alt="computer image outline">
+      
+      <div id="wrapper2"></div>
+         <h1 class = "parag"> VS </h1> 
+      </div>
+
+      <div id="locator">
+          <img id='selected' src="images/rock.png" alt="rock">
+      </div>
+    </div>
+  
+
+     
+    <script src='./dom1.js'></script>
+  </body>
+  
