@@ -6,7 +6,7 @@ document.getElementById("btn").addEventListener("click", start);
 
 function start() {
   var background = document.getElementById('body');
-  background.style.backgroundImage = 'url(images/background4.gif)';
+  background.style.backgroundImage = 'url(https://www.dropbox.com/s/fnlf5vvf1z08lvb/background4.gif?raw=1)';
   var elements = document.getElementsByClassName('elements');
   for (var i = 0; i < elements.length; i++) {
     elements[i].style.visibility = 'visible';
